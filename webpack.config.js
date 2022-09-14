@@ -7,10 +7,10 @@ module.exports = {
     main: path.resolve(__dirname, './src/index.js')
   },
 
-  target: 'web',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/',
+    chunkLoading: false,
+    wasmLoading: false,
   },
   module: {
     rules: [
@@ -34,10 +34,6 @@ module.exports = {
         use: [
           MiniCssExtractPlugin.loader, 'css-loader',
         ],
-      },
-      {
-        test: /\.svg$/,
-        type: 'asset/resource',
       },
     ],
   },

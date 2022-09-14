@@ -1,5 +1,3 @@
-# Webpack5
+[![Build status](https://ci.appveyor.com/api/projects/status/eri8pvc43fr6fcxj?svg=true)](https://ci.appveyor.com/project/evgeniyloznevoy/ahj-homeworks-env)
 
-[Информация о релизе Webpack 5](https://webpack.js.org/blog/2020-10-10-webpack-5-release/)
-
-[Migration Guide](https://webpack.js.org/migrate/5/)
+https://evgeniyloznevoy.github.io/ahj-homeworks-env

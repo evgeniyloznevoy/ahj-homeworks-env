@@ -1,3 +1,7 @@
+.idea
+Thumbs.db*
+.DS_Store*
+HELP.md
 dist
 doc
 
@@ -81,3 +85,4 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+.npmrc
