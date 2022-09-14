@@ -448,7 +448,7 @@
     "vue-template-compiler": "^2.7.10"
   },
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest",
     "build": "webpack --mode production",
     "lint": "eslint ."
   },
